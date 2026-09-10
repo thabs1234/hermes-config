@@ -1,0 +1,10 @@
+api:
+  base_url: "http://127.0.0.1:20128/v1"
+  api_key: ""  # not required for local
+
+models:
+  default: "openai/gpt-4o-mini"
+
+websocket:
+  enabled: true
+  url: "ws://127.0.0.1:20128/v1/chat/completions"
